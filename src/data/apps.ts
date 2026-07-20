@@ -476,7 +476,7 @@ export const apps: AppCard[] = [
     "image": "/images/default-app.jpg",
     "url": "https://thay-link-vercel-cua-toi.vercel.app",
     "badge": "MIỄN PHÍ",
-    "active": true,
+    "active": false,
     "featured": false,
     "order": 1
   }

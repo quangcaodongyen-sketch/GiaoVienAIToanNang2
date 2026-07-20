@@ -18,7 +18,7 @@ export const apps: AppCard[] = [
     "description": "Tích hợp NLS vào giáo án",
     "image": "/giaoanNLS.png",
     "url": "https://giao-an-nls.vercel.app/app",
-    "category": "TẠO GIÁO ÁN",
+    "category": "GIÁO ÁN",
     "badge": "MIỄN PHÍ",
     "active": true,
     "featured": false,

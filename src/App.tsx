@@ -110,9 +110,15 @@ function App() {
       </header>
 
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-950 text-white py-20 lg:py-32">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl"></div>
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/black-scales.png')] opacity-20"></div>
+        <div className="absolute top-0 right-0 w-[30rem] h-[30rem] bg-blue-600/30 rounded-full blur-[100px] animate-pulse"></div>
+        <div className="absolute bottom-0 left-0 w-[30rem] h-[30rem] bg-purple-600/30 rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '2s' }}></div>
+        
+        {/* Floating 3D Shapes */}
+        <div className="absolute top-20 left-[10%] w-32 h-32 bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-2xl transform rotate-[30deg] skew-y-12 opacity-60 shadow-[20px_20px_40px_rgba(0,0,0,0.5)] animate-[bounce_8s_infinite]"></div>
+        <div className="absolute bottom-20 right-[15%] w-40 h-40 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full transform -rotate-12 opacity-50 blur-[2px] shadow-[0_0_50px_rgba(236,72,153,0.4)] animate-[pulse_6s_infinite]"></div>
+        <div className="absolute top-1/3 right-[20%] w-24 h-24 bg-gradient-to-bl from-amber-400 to-orange-500 rounded-xl transform rotate-[60deg] skew-x-12 opacity-70 shadow-[15px_15px_30px_rgba(0,0,0,0.4)] animate-[bounce_6s_infinite_reverse]"></div>
+
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -121,10 +127,8 @@ function App() {
               <span className="text-sm font-semibold">AI-Powered Education Platform</span>
             </div>
 
-            <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
-              CỘNG ĐỒNG GIÁO VIÊN<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-cyan-200 font-black">ỨNG DỤNG AI TOÀN NĂNG</span><br />
-              VÀO GIẢNG DẠY
+            <h1 className="text-5xl lg:text-7xl font-extrabold mb-6 leading-tight tracking-tight drop-shadow-2xl">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-cyan-300 to-purple-300 font-black animate-gradient-x">GIÁO VIÊN AI TOÀN NĂNG</span>
             </h1>
 
             <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-3xl mx-auto leading-relaxed">
@@ -145,21 +149,21 @@ function App() {
 
 
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-3xl font-bold mb-2">1200+</div>
-                <div className="text-blue-100">Giáo viên tin dùng</div>
+              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div className="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">50.000+</div>
+                <div className="text-blue-100 font-medium">Giáo viên tin dùng</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-3xl font-bold mb-2">30+</div>
-                <div className="text-blue-100">Công cụ AI</div>
+              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div className="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-400">100+</div>
+                <div className="text-blue-100 font-medium">Công cụ AI</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-3xl font-bold mb-2">90%</div>
-                <div className="text-blue-100">Tiết kiệm thời gian</div>
+              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div className="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-orange-400">98%</div>
+                <div className="text-blue-100 font-medium">Tiết kiệm thời gian</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                <div className="text-3xl font-bold mb-2">{visitCount.toLocaleString()}+</div>
-                <div className="text-blue-100">Lượt truy cập</div>
+              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] transform transition hover:-translate-y-2 hover:shadow-2xl">
+                <div className="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-teal-400">{visitCount.toLocaleString()}+</div>
+                <div className="text-blue-100 font-medium">Lượt truy cập</div>
               </div>
             </div>
           </div>

@@ -49,14 +49,14 @@ export const apps: AppCard[] = [
     "order": 2
   },
   {
-    "id": "game2",
-    "title": "7 GAME ĐỐI KHÁNG TRONG LỚP",
-    "description": "Đấu Trường Tri Thức – Bộ 7 trò chơi trắc nghiệm tương tác chạy ngay trên trình duyệt",
-    "image": "/gamedoikhang.png",
-    "url": "https://gamedoikhangpro.vercel.app/",
-    "category": "GAME EDUCATION",
+    "id": "congthutoan",
+    "title": "CHUYỂN CÔNG THỨC AI SANG MATHTYPE WORD",
+    "description": "Chuyển công thức từ Gemini và ChatGPT sang Mathtype Word",
+    "image": "/congthucmathtype.jpg",
+    "url": "https://web-to-mathtype-word.vercel.app/",
+    "category": "BỘ TRỢ LÝ AI",
     "badge": "MIỄN PHÍ",
-    "active": false,
+    "active": true,
     "featured": false,
     "order": 1
   },

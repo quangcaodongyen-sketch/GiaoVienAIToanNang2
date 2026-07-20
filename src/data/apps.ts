@@ -25,16 +25,16 @@ export const apps: AppCard[] = [
     "order": 1
   },
   {
-    "id": "webtoword",
-    "title": "CHUYỂN CÔNG THỨC AI SANG WORD",
-    "description": "Chuyển đổi các kết quả từ ChatGPT, Gemini ra file Word với công thức MathType ",
-    "image": "/webtoword.png",
-    "url": "https://webtoword.vercel.app/",
-    "category": "BỘ TRỢ LÝ AI",
+    "id": "sinhdebienthe",
+    "title": "SINH ĐỀ BIẾN THỂ VIP",
+    "description": "Sinh đề biến thể từ đề gốc thành 3 đề tương đương",
+    "image": "/sinhdebientheVIP.png",
+    "url": "https://sinh-de-bien-the-vip.vercel.app/",
+    "category": "ĐỀ KIỂM TRA",
     "badge": "MIỄN PHÍ",
-    "active": false,
+    "active": true,
     "featured": false,
-    "order": 1
+    "order": 2
   },
   {
     "id": "game4",

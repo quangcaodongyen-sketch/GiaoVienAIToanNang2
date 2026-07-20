@@ -34,19 +34,19 @@ export const apps: AppCard[] = [
     "badge": "MIỄN PHÍ",
     "active": true,
     "featured": false,
-    "order": 2
+    "order": 1
   },
   {
-    "id": "game4",
-    "title": "BIẾN GIÁO ÁN THÀNH 18 GAME TƯƠNG TÁC",
-    "description": "Chọn giáo án hoặc phiếu học tập, web tự tạo với 18 game tương tác",
-    "image": "/edugameai.png",
-    "url": "https://taogametuongtac.vercel.app/",
-    "category": "GAME EDUCATION",
+    "id": "TAODEKTCV7991",
+    "title": "TẠO ĐỀ KIỂM TRA THEO CV 7991",
+    "description": "Tạo đề kiểm tra các môn học theo CV 7991",
+    "image": "/Taodektcv7991.jpg",
+    "url": "https://kiem-tra-cv-7991.vercel.app/",
+    "category": "ĐỀ KIỂM TRA",
     "badge": "TRẢI NGHIỆM",
-    "active": false,
+    "active": true,
     "featured": false,
-    "order": 1
+    "order": 2
   },
   {
     "id": "game2",

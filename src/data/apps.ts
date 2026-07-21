@@ -61,14 +61,14 @@ export const apps: AppCard[] = [
     "order": 1
   },
   {
-    "id": "game",
-    "title": "12 GAME GỌI TÊN HỌC SINH NGẪU NHIÊN",
-    "description": "Thay đổi cách gọi học sinh lên bảng với 12 phong cách vui nhộn",
-    "image": "/random.png",
-    "url": "https://randomhocsinh.vercel.app/",
-    "category": "GAME EDUCATION",
-    "badge": "MIỄN PHÍ",
-    "active": false,
+    "id": "trolyGVCN",
+    "title": "TRỢ LÝ GVCN",
+    "description": "Trợ lý giáo viên chủ nhiệm",
+    "image": "/trolygvnn.jpg",
+    "url": "https://tro-ly-gvcn.vercel.app/",
+    "category": "BỘ TRỢ LÝ AI",
+    "badge": "TRẢI NGHIỆM",
+    "active": true,
     "featured": false,
     "order": 1
   },

@@ -73,16 +73,16 @@ export const apps: AppCard[] = [
     "order": 1
   },
   {
-    "id": "toan-nang",
-    "title": "TẠO ĐỀ THI TOÀN NĂNG",
-    "description": "App tạo đề thi vào 10, đề tốt nghiệp THPT, đề học kì các môn các cấp",
-    "image": "/toannang.png",
-    "url": "https://taodethitoannang.vercel.app/",
-    "category": "TẠO ĐỀ THI",
+    "id": "chuanhoavanbanvip",
+    "title": "CHUẨN HÓA VĂN BẢN VIP",
+    "description": "Chuẩn hóa tất cả các loại VB",
+    "image": "/chuanhoavanbanvip.jpg",
+    "url": "https://chuan-hoa-vb-vip.vercel.app/",
+    "category": "BỘ TRỢ LÝ AI",
     "badge": "TRẢI NGHIỆM MIỄN PHÍ",
-    "active": false,
+    "active": true,
     "featured": false,
-    "order": 1
+    "order": 2
   },
   {
     "id": "thi-gvg",
